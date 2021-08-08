@@ -1,0 +1,42 @@
+header{
+    background-image: url("books.jpeg");
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:hover{
+    background-color: brown;
+    transition: 1s;
+}
+
+.logo{
+    text-align: center;
+    font-family: Times;
+}
+
+.text{
+    font-size:100px;
+    color: white;
+    padding-top: 34vh;
+}
